@@ -19,6 +19,8 @@ Quindi una volta creata l'applicazione del punto 2 bisogna recuperare Client ID 
 
 A questo punto il backend utilizzando i valori di queste variabili di ambiente, prima di utilizzare le API, effettuarà una Basic authentication verso Shutterstock.
 
+Facciamo presente che, utilizzando un account gratuito di Shutterstock, ci sono dei limiti nel numero di ricerche effettuabili e di immagini ricercabili.
+
 ## Esecuzione del backend
 
 Da terminale/shell, posizionarsi nella directory showimagesbackend ed eseguire "node server.js"
