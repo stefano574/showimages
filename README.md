@@ -1,5 +1,5 @@
 # showimages
-Visualizzatore immagini da Shutterstock
+Visualizzatore immagini di Shutterstock
 
 ## Prerequisiti
 
