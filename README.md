@@ -14,9 +14,10 @@ come descritto in https://www.shutterstock.com/it/developers/documentation/searc
 3. autenticarsi
 
 Per autenticarsi in questo semplice esempio è sufficiente usare una Basic authentication.
+
 Quindi una volta creata l'applicazione del punto 2 bisogna recuperare Client ID e Client Secret forniti e impostare le variabili di ambiente SHUTTERSTOCK_CONSUMER_ID e SHUTTERSTOCK_CONSUMER_SECRET valorizzate con i rispettivi valori.
 
-A questo punto il backend utilizzando la variabili di ambiente. prima di utilizzare le API, effettuarà una Basic authentication verso Shutterstock.
+A questo punto il backend utilizzando i valori di queste variabili di ambiente, prima di utilizzare le API, effettuarà una Basic authentication verso Shutterstock.
 
 ## Esecuzione del backend
 
