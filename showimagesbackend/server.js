@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
 
 app.get("/api/v1/immagini/ricerca", (req, res) => {
 
-	console.log(req.query);
+	// console.log(req.query);
 
 	var termine = req.query.termine;
 	if (!termine) {
@@ -65,7 +65,7 @@ app.get("/api/v1/immagini/ricerca", (req, res) => {
 
 	imagesApi.searchImages(queryParams).then(({data}) => {
 
-		console.log(data);
+		// console.log(data);
 
 		var risultato = [];
 		for(let item of data) {
