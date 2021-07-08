@@ -7,7 +7,7 @@ Visualizzatore immagini da Shutterstock
 - Angular (testato con versione 11)
 - Credenziali Developer Shutterstock per accesso API
 
-come descritto in https://www.shutterstock.com/it/developers/documentation/searching#keyword-searches
+come descritto in https://www.shutterstock.com/it/developers/documentation/searching
 
 su Shutterstock bisogna
 
