@@ -7,7 +7,9 @@ Visualizzatore immagini di Shutterstock
 - Angular (testato con versione 11)
 - Credenziali Developer Shutterstock per accesso API
 
-come descritto in https://www.shutterstock.com/it/developers/documentation/searching bisogna
+## Operazioni preliminari
+
+Come descritto in https://www.shutterstock.com/it/developers/documentation/searching, per poter utilizzare le API di Shutterstock bisogna:
 
 1. avere un account
 2. creare un'applicazione
