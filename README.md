@@ -24,6 +24,6 @@ Da terminale/shell, posizionarsi nella directtory showimagesbackend ed eseguire 
 
 ## Esecuzione del frontend
 
-Da terminale/shell, posizionarsi nella directtory showimagesfront ed eseguire "ns serve --open"
+Da terminale/shell, posizionarsi nella directtory showimagesfront ed eseguire "ng serve --open"
 
 
