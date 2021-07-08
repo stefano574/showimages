@@ -20,10 +20,10 @@ Quindi una volta creata l'applicazione del punto 2 bisogna recuperare Client ID 
 
 ## Esecuzione del backend
 
-Da terminale/shell, posizionarsi nella directtory showimagesbackend ed eseguire "node server.js"
+Da terminale/shell, posizionarsi nella directory showimagesbackend ed eseguire "node server.js"
 
 ## Esecuzione del frontend
 
-Da terminale/shell, posizionarsi nella directtory showimagesfront ed eseguire "ng serve --open"
+Da terminale/shell, posizionarsi nella directory showimagesfront ed eseguire "ng serve --open"
 
 
