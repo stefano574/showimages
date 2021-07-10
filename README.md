@@ -3,9 +3,9 @@ Visualizzatore immagini di Shutterstock
 
 ## Prerequisiti
 
-- Node.js
-- Angular (testato con versione 11)
-- Credenziali Developer Shutterstock per accesso API
+- Node.js (https://nodejs.org/)
+- Angular (https://angular.io/) - testato con la versione 11
+- Credenziali Developer Shutterstock per accesso API (https://www.shutterstock.com/it/developers)
 
 ## Operazioni preliminari
 
@@ -21,14 +21,41 @@ Quindi una volta creata l'applicazione del punto 2 bisogna recuperare Client ID 
 
 A questo punto il backend utilizzando i valori di queste variabili di ambiente, prima di utilizzare le API, effettuarà una Basic authentication verso Shutterstock.
 
-Facciamo presente che, utilizzando un account gratuito di Shutterstock, ci sono dei limiti nel numero di ricerche effettuabili e di immagini ricercabili.
+Si fa presente che, utilizzando un account gratuito di Shutterstock, ci sono dei limiti nel numero di ricerche effettuabili e di immagini ricercabili.
 
 ## Esecuzione del backend
 
-Da terminale/shell, posizionarsi nella directory showimagesbackend ed eseguire "node server.js"
+Aprire il terminale/shell.
+
+Impostare le variabili di ambiente
+
+**Windows**
+
+```
+set SHUTTERSTOCK_CONSUMER_ID=<valore Client ID>
+set SHUTTERSTOCK_CONSUMER_SECRET=<valore Client Secret>
+```
+
+**Linux**
+
+```
+export SHUTTERSTOCK_CONSUMER_ID=<valore Client ID>
+export SHUTTERSTOCK_CONSUMER_SECRET=<valore Client Secret>
+```
+
+posizionarsi nella directory showimagesbackend ed eseguire
+
+```
+node server.js
+```
 
 ## Esecuzione del frontend
 
-Da terminale/shell, posizionarsi nella directory showimagesfront ed eseguire "ng serve --open"
+Da terminale/shell, posizionarsi nella directory showimagesfront ed eseguire
+
+```
+ng serve --open
+```
+
 
 
