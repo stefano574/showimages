@@ -43,7 +43,9 @@ export SHUTTERSTOCK_CONSUMER_ID=<valore Client ID>
 export SHUTTERSTOCK_CONSUMER_SECRET=<valore Client Secret>
 ```
 
-posizionarsi nella directory showimagesbackend ed eseguire
+posizionarsi nella directory showimagesbackend e la prima volta oppure ogni volta che si installa/aggiorna un modulo eseguire `npm i`
+
+dopdociché per avviare il backend eseguire
 
 ```
 node server.js
@@ -51,7 +53,9 @@ node server.js
 
 ## Esecuzione del frontend
 
-Da terminale/shell, posizionarsi nella directory showimagesfront ed eseguire
+Da terminale/shell, posizionarsi nella directory showimagesfront e la prima volta oppure ogni volta che si installa/aggiorna un modulo eseguire `npm i`
+
+dopdociché per avviare l'applicazione frontend eseguire
 
 ```
 ng serve --open
